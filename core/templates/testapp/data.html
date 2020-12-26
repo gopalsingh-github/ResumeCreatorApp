@@ -1,0 +1,12 @@
+{% extends 'testapp/base.html' %}
+{% block content %}
+<div class="text-white">
+    {% if details %}
+        {% for detail in details %}
+            <h3>Name:{{detail.name}}</h3>
+            <h3>Name:{{detail.email}}</h3>
+            <h3>Name:{{detail.massage}}</h3>
+        {% endfor %}
+    {% endif %}
+</div>
+{% endblock content %}

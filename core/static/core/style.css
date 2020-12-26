@@ -1,0 +1,21 @@
+html,
+body{
+    height: 100%;
+}
+
+
+.container-fluid{
+    min-height: 100%;
+}
+.abc{
+    color: #34ce57;
+}
+.abcd{
+    color: greenyellow;
+}
+a{
+    color: yellow;
+}
+.location{
+    color: #34ce57;
+}
